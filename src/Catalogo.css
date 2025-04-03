@@ -1,0 +1,44 @@
+.catalogo-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .productos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .producto-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .producto-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .precio {
+    font-weight: bold;
+    color: #e63946;
+  }
+  
+  .btn-comprar {
+    background: #1d3557;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-comprar:hover {
+    background: #457b9d;
+  }
+  
